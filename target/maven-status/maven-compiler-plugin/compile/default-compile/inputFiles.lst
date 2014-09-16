@@ -2,6 +2,7 @@ C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\jav
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\entities\Moviles.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\view\ErrorView.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\entities\Cliente.java
+C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\view\ListarClientes.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\ejb\TelefonoFacade.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\ejb\PedidosFacade.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\ejb\DireccionFacade.java
@@ -11,7 +12,6 @@ C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\jav
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\ejb\MovilesFacade.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\entities\Articulos.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\util\ViewMenu.java
-C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\view\DefautView.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\entities\Telefono.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\view\ListarPedidos.java
 C:\Users\Ismael\Documents\NetBeansProjects\java-ee7-app-stub-master\src\main\java\com\vaadin\cdi\example\entities\Pedidos.java

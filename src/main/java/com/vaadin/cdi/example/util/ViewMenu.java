@@ -5,7 +5,10 @@
  */
 package com.vaadin.cdi.example.util;
 
+import com.vaadin.cdi.example.view.ListarArticulos;
 import com.vaadin.cdi.CDIView;
+import com.vaadin.cdi.example.view.ListarClientes;
+import com.vaadin.cdi.example.view.ListarPedidos;
 import com.vaadin.navigator.View;
 import com.vaadin.ui.Button;
 import com.vaadin.ui.Component;
@@ -35,6 +38,7 @@ public class ViewMenu implements Serializable {
     
     @Inject
     BeanManager beanManager;
+    
     
     public Set<Bean<?>> getAvailableViews() {
         Set<Bean<?>> all = beanManager.getBeans(View.class,
@@ -67,6 +71,8 @@ public class ViewMenu implements Serializable {
         button.addClickListener(e -> {
             CDIView cdiview = beanClass.getAnnotation(CDIView.class);
             UI.getCurrent().getNavigator().navigateTo(cdiview.value());
+            UI.getCurrent().getNavigator().addView("ListarArticulos", ListarArticulos.class);
+            UI.getCurrent().getNavigator().addView("ListarClientes", ListarClientes.class);
         });
         return button;
     }

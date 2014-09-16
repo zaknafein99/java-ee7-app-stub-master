@@ -8,7 +8,6 @@ package com.vaadin.cdi.example.view;
 import com.vaadin.cdi.CDIView;
 import com.vaadin.cdi.example.ejb.PedidosFacade;
 import com.vaadin.cdi.example.entities.Pedidos;
-import com.vaadin.data.fieldgroup.BeanFieldGroup;
 import com.vaadin.event.LayoutEvents;
 import com.vaadin.navigator.View;
 import com.vaadin.navigator.ViewChangeListener;
@@ -35,6 +34,8 @@ public class ListarPedidos extends MVerticalLayout implements View {
         addComponents(
                 new Header("Pedidos Pendientes")
         );
+        
+        
         
         List<Pedidos>findAll = pf.findPend();
         MTable<Pedidos> mTable = new MTable<Pedidos>(Pedidos.class);

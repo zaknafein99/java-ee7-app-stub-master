@@ -1,16 +1,17 @@
 com\vaadin\cdi\example\ejb\ArticulosFacade.class
 com\vaadin\cdi\example\entities\Telefono_.class
 com\vaadin\cdi\example\ejb\MovilesFacade.class
+com\vaadin\cdi\example\view\ListarArticulos.class
 com\vaadin\cdi\example\view\ListarPedidos$1.class
 com\vaadin\cdi\example\view\MainUI.class
-com\vaadin\cdi\example\view\DefautView.class
 com\vaadin\cdi\example\util\ViewMenu$1.class
 com\vaadin\cdi\example\ejb\AbstractFacade.class
 com\vaadin\cdi\example\entities\Moviles.class
 com\vaadin\cdi\example\view\ListarPedidos.class
 com\vaadin\cdi\example\entities\Pedidos_.class
 com\vaadin\cdi\example\entities\Cliente.class
-ListarArticulos.class
+com\vaadin\cdi\example\view\ListarClientes.class
+com\vaadin\cdi\example\view\ListarClientes$1.class
 com\vaadin\cdi\example\ejb\TelefonoFacade.class
 com\vaadin\cdi\example\ejb\DireccionFacade.class
 com\vaadin\cdi\example\entities\Cliente_.class
@@ -22,6 +23,7 @@ com\vaadin\cdi\example\view\ErrorView.class
 com\vaadin\cdi\example\ejb\ClienteFacade.class
 com\vaadin\cdi\example\entities\Pedidos.class
 com\vaadin\cdi\example\entities\Direccion.class
+com\vaadin\cdi\example\view\ListarArticulos$1.class
 com\vaadin\cdi\example\entities\Articulos.class
 com\vaadin\cdi\example\entities\Moviles_.class
 com\vaadin\cdi\example\ejb\PedidosFacade.class
